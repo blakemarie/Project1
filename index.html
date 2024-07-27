@@ -1,0 +1,181 @@
+<!-- Create a new website using HTML and Bootstrap. 
+The website must include the following:
+At least 2 pages.
+A Bootstrap navbar, table, and form.
+Bootstrap grid used throughout to format elements
+Elements should stack vertically when the window is small -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Olympics</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index2.html">
+</head>
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="https://i.pinimg.com/736x/30/b6/fd/30b6fd47b140409dded016e03d2d367a.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+      TEAM USA 
+    </a>
+    <div class="dropdown">
+      <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"">
+        <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/7.1.0/240/iconmonstr-line-three-horizontal-lined.png" height="30">
+      </button>
+      <div >
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="index.html">Home</a></li>
+          <li><a class="dropdown-item" href="index2.html">About Us</a></li>
+          </ul>
+      </div>
+    </div>
+</nav>
+
+
+<div>
+<h1 class="text-center">USA heading to the Olympics</h1>
+<h3>Female athletes to look out for in their Olympic deput:</h3>
+</div>
+
+<body>
+<div class="container">
+<div class="mx-auto">
+  <div class="card-container .content">
+      <div class="card mb-3" style="max-width: 900px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://cdn.sanity.io/images/oyf3dba6/production/583e493819619cdb9bde990db03de5d6cba35f4d-580x580.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Sophie Smith</h5>
+                <p class="card-text">At 23, Sophie Smith, a current member of the Portland Thorns, is making her Olympic debut this year. She is a leading goal scorer in the NWSL and will bring a lot offensively to this USA team.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 900px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1633683345-web-660d76546ed0a.jpg?crop=0.484xw:0.725xh;0.349xw,0.0259xh&resize=640:*" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Sha'Carri Richardson</h5>
+                <p class="card-text">At 24, Sha’Carri Richardson is on her redemption tour! After being ousted in the 2020 Olympics, she is getting her chance to compete at the highest level and we are excited to see how she does!</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 900px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://pbs.twimg.com/media/E2kW0mFXoAIj5zn.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Sara Hughes</h5>
+                <p class="card-text">At 29, Sara Hughes is partnering with Kelly Cheng in her Olympic debut on her road to win their first Women’s Sand Volleyball Gold Medal!</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 900px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAOQJLqKJNHQDK0VM03AFAE259vuBQZLIKQ&s" class="img-fluid rounded-start" alt="Katharine Berkoff">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Katharine Berkoff</h5>
+                <p class="card-text">At 23, Katharine Berkoff, daughter of Olympic swimmer David Berkoff, will be making her Olympic debut in her fight to win her first medal!</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 900px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://pbs.twimg.com/media/FsdzN4RXgAotgKq?format=jpg&name=4096x4096" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Hezly Rivera</h5>
+                <p class="card-text">At just 16, Hezly Rivera will be making her debut as the youngest Olympian on Team USA.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+</div>  
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <!-- Section 3 -->
+
+<h3>Follow them on their Olympic journey!</h3>
+<table class="table table-striped">
+  <thead>
+    <tr class="header-border">
+      <th scope="col">Name</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Sophie Smith</th>
+      <td>@sophsssmith</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Sha’Carri Richardson</th>
+      <td>@itsshacarri</td>
+    </tr>
+    <tr>
+      <th scope="row">Sara Hughes</th>
+      <td>@sarahughesbeach</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">Katharine Berkoff</th>
+      <td>@katharineberkoff</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">Hezly Rivera</th>
+      <td>@hezrivera</td>
+     
+    </tr>
+  </tbody>
+</table>
+
+<section class="home-newsletter">
+  <div class="container">
+  <div class="row">
+  <div class="col-sm-12">
+    <div class="single">
+      <h2>Subscribe to our Newsletter</h2>
+    <div class="input-group">
+           <input type="email" class="form-control" placeholder="Enter your email">
+           <span class="input-group-btn">
+           <button class="btn btn-theme" type="submit">Subscribe</button>
+           </span>
+            </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+
+</body>
+</html>

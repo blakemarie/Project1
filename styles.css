@@ -1,0 +1,115 @@
+.navbar-brand{
+    margin-left: 10px;
+    font-style: bold;
+    color: #030d50;
+    font-stretch: expanded;
+}
+body{
+    background-color: rgb(160, 41, 41);
+}
+
+h1{
+    font-stretch: expanded;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    font-size: 400%;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    color: rgb(160, 41, 41);
+    background-color: white;
+    background-size: 20px;
+}
+
+.container{
+    display: flex;
+    gap: 30%;
+    border: 100;
+    border-radius: 10%;
+    border-color: rgb(100, 100, 100);
+    margin-bottom: 10
+}
+
+.table{
+    text-align: left;
+    width: 500px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #030d50;
+    border: #030d50;
+    border-radius: 60px;
+    border-left: #030d50;
+    border-right: #030d50;
+    border-top: #030d50;
+    border-top-left-radius: 60px;
+}
+
+.header-border{
+    border-bottom:4px solid red
+}
+
+.card-container .content{
+    padding: 20px;
+    align-items: flex-end;
+    padding: 100%;
+    background-color: #030d50;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.card-text{
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 25px;
+}
+
+.home-newsletter {
+    padding: 10px 0;
+    background: #030d50;
+    }
+    
+    .home-newsletter .single {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .home-newsletter .single h2 {
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+    .home-newsletter .single .form-control {
+    height: 36px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    border-radius: 20px 0 0 20px; }
+    .home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f; }
+    .home-newsletter .single .btn {
+    min-height: 30px; 
+    border-radius: 0 20px 20px 0;
+    background: #243c4f;
+    color: #fff;
+    }
+
+
+   .card-body{
+    opacity: 2;
+   }
+
+   .card{
+    opacity: 2;
+   }
+   .card-title{
+    color: #030d50;
+   }
+   .card-text{
+    color: #030d50;
+   }
